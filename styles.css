@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+    
+}
+
+body {
+background-image: url(https://seucreditodigital.com.br/wp-content/uploads/2023/10/cotacao-dolar-moedas.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+overflow: hidden;
+}
+
+
+main {
+    width: 350px;
+    padding: 10px;
+    margin: 5px auto 5px auto;
+    background-color: #ccc9c1;
+    border: 1px solid #011F2A;
+    border-radius: 22px;
+    
+}
+
+label {
+    display: block;
+    margin: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #011F2A;
+}
+
+
+    
+
+
+.converter-de, .converter-para, input {
+    padding-left: 18px;
+    margin-bottom: 28px;
+    width: 100%;
+    height: 35px;
+    font-size: 19px;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid #011F2A ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    margin-bottom: 12px;
+    width: 100%;
+    height: 43px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #011F2A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #011F2A;
+    border-radius: 10px;
+}
+
+.caixa-conversao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.caixa-conversao, .texto-converter, .caixa-conversao, .texto-convertido {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.caixa-conversao, .valor-converter, .caixa-conversao, .valor-convertido {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.img-arrow {
+    display: block;
+    margin: 5px auto;
+    
+}
+
+.imagem-converter, .imagem-convertida {
+    filter: drop-shadow(2px 3px 3px #1D3557);
+    margin-bottom: 5px;
+}
+
+.texto-converter, .texto-convertido, .valor-converter, .valor-convertido {
+    color: #011F2A;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-convertida, .imagem-converter {
+    display: block;
+    margin: 10px auto;
+    width: 42px;
+}
+
+ 
+
+.valor-convertido, .valor-converter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
