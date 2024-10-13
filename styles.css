@@ -14,8 +14,8 @@ body {
 background-image: url(https://seucreditodigital.com.br/wp-content/uploads/2023/10/cotacao-dolar-moedas.jpg);
 background-size: cover;
 background-position: center;
-background-repeat: no-repeat;
-overflow: hidden;
+background-repeat: repeat;
+
 }
 
 
